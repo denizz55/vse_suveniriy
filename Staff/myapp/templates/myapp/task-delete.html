@@ -6,11 +6,11 @@
 
 {% block content %}
 <div class="features">
-    <h1>Удаление статьи</h1>
+    <h1>Удаление записи</h1>
     <form method="post">
         {% csrf_token %}
         <p>Действительно хотите удалить запись?</p>
-        <button class="btn btn-success" type="submit">удалить стать</button>
+        <button class="btn btn-success" type="submit">Удалить запись</button>
     </form>
 </div>
 {% endblock %}

@@ -7,19 +7,19 @@ class TaskForm(ModelForm):
         fields = ["name", "place", "price", "square"]
         widgets ={
             "name": TextInput(attrs={
-                'class': 'form-control',
+                'class': 'form-control w-75',
                 'placeholder': 'Название'
             }),
             "place": TextInput(attrs={
-                'class': 'form-control',
-                'placeholder': 'Расположение'
+                'class': 'form-control w-75',
+                'placeholder': 'Количество'
             }),
             "price": TextInput(attrs={
-                'class': 'form-control',
+                'class': 'form-control w-75',
                 'placeholder': 'Цена'
             }),
             "square": TextInput(attrs={
-                'class': 'form-control',
-                'placeholder': 'Площадь'
+                'class': 'form-control w-75',
+                'placeholder': 'Адрес'
             }),
         }
